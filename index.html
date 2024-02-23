@@ -11,10 +11,13 @@
   <div class="todo-app">
     <h2>Todo App</h2>
     <div class="row">
-        <input type="text" id="input-box" placeholder="please enter todo"></input><br/>
-        <button id="add-todo">add todo</button><br/>
-        <button id="delete-all-todos">delete all todos</button><br/>
+           <input type="text" id="input-box" placeholder="please enter todo"></input><br/>
+           <button id="add-todo" onclick="addTodo()">add todo</button><br/>
+           <button id="delete-all-todos" onclick="deleteAllTodos()">delete all todos</button><br/>
     </div>
+    <ul id="list-container">
+
+    </ul>
   </div>
 </div>
     <script src="script.js"></script>
