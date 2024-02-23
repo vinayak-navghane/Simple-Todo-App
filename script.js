@@ -9,7 +9,7 @@ function addTodo(){
   }else{
   let li = document.createElement("li")  
     li.innerHTML = input.value
-    li.innerHTML += ' <button onclick="deleteTodo(this)">delete</button>';
+    li.innerHTML += ' <button id="delete-todo" onclick="deleteTodo(this)">delete</button>';
     listContainer.appendChild(li)
   document.getElementById("input-box").value = ""
   }
